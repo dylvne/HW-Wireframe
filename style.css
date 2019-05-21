@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, 'Helvetica Neue', sans-serif;
+    background-color: #777;
+    color: #777;
+    widows: 960px;
+    font-size: 18px;
+}
+header,nav,section,aside,footer{
+    background-color: #ebebeb;
+    text-align: center;
+}
+article{
+    color:#ebebeb;
+    background-color: #777;
+}
+h1,p{
+    color: #777;
+    background-color: #ebebeb;
+}
+section{
+    width:495px;
+    float: left;
+}
+aside{
+    float:left;
+}
+.clearFix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wrapper{
+    
+}
